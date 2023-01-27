@@ -1,0 +1,261 @@
+html{
+   box-sizing: border-box;
+   font-size: 60.5%;
+   margin:0% 0%;
+}
+
+*,*::before,*::after{
+   box-sizing: inherit;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.img-fondo{
+background-image: url(/IMG/tiendaa.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+img{
+   width: 100%;
+}
+.velo-negro{
+   background-color:rgba(0, 0, 0, 0.63);
+}
+
+.contenedor{
+   max-width: 120rem;
+   margin: auto;
+}
+
+.header{
+   display: flex;
+   justify-content: center;
+   background-color: #00050ee1;
+   
+}
+
+.logo-img{
+   max-width: 50rem;
+   margin: 0% 0%;
+   
+}
+
+
+nav{
+   margin: 0 0 0;
+   background-color: rgba(36, 36, 36, 0.781);
+   padding: 2rem;
+   display: flex;
+   justify-content: center;
+   gap: 5rem;
+}
+a{
+   text-decoration: none;
+}
+nav a{
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 800;
+   font-size: 3rem;
+   color: rgb(255, 255, 255);
+   text-transform: uppercase;
+}
+nav a:hover{
+   color: #2780b3;
+}
+
+.nuestros-productos{
+   font-family: Arial, Helvetica, sans-serif;
+   color: rgb(255, 255, 255);
+   font-size: 4rem;
+   text-align: center;
+   text-transform: uppercase;
+   font-weight: 800;
+}
+
+.productos{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+
+  
+}
+.producto{
+   background-color: rgba(0, 0, 0, 0.768);;
+   margin: 2rem;
+   padding: 2rem;
+   border-radius: 5rem;
+}
+
+.producto-blanco{
+   background-color: rgb(255, 255, 255);
+   height: auto;
+   object-fit: contain;
+   padding: 1rem;
+   border-radius: 2rem;
+   box-shadow: 0px 50px 20px black;
+}
+
+.producto-precio,
+.producto-nombre{
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   text-transform: uppercase;
+   text-align: center;
+}
+
+.producto-precio{
+   font-size: auto;
+   font-weight: 500;
+}
+.producto-nombre{
+   font-size: auto;
+   font-weight: 800;
+}
+
+.footer{
+   background-color: black;
+   padding: 3.5rem;
+   font-family: Arial, Helvetica, sans-serif;
+   padding-bottom: 2rem;
+   color: white;
+   font-size: 2rem;
+   text-align: center;
+   margin: 0% 0%;
+}
+
+.nosotros{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+gap: 10rem;
+margin-bottom: 20rem;
+
+}
+.nosotros-texto{
+   color: white;
+   font-size: 3rem;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.nosotros-img{
+   background-color: white;
+   border-radius: 5%;
+}
+
+.bloques{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   gap: 20rem;
+}
+
+.bloques img{
+   width: 20rem;
+   margin-bottom: 2rem;
+   height: 20rem;
+}
+.bloque-titulo{
+   margin:0;
+}
+
+.bloque{
+   text-align: center;
+   color: white;
+   font-size: 3rem;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-bottom: 5rem;
+}
+.bloque-titulo{
+   color: rgb(0, 195, 255);
+   font-size: 4rem;
+   margin: 3rem;
+   text-transform: uppercase;
+   font-weight: 800;
+}
+
+.enlace-footer:hover{
+   padding-left: 1rem;
+   padding-right: 1rem;
+}
+* {
+   box-sizing: border-box;
+ }
+ 
+ .row::after {
+   content: "";
+   clear: both;
+   display: block;
+ }
+ 
+ [class*="col-"] {
+   float: left;
+   padding: 15px;
+ }
+ 
+ html {
+   font-family: "Lucida Sans", sans-serif;
+ }
+ 
+ .header {
+   
+   color: #851818;
+   padding: 15px;
+ }
+ 
+ .menu ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+ }
+ 
+ .menu li {
+   padding: 8px;
+   margin-bottom: 7px;
+   background-color: #33b5e5;
+   color: #ffffff;
+   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+ }
+ 
+ .menu li:hover {
+   background-color: #0099cc;
+ }
+ 
+ .aside {
+   background-color: #33b5e5;
+   padding: 15px;
+   color: #ffffff;
+   text-align: center;
+   font-size: 14px;
+   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0, 0, 0, 0);
+ }
+ 
+ .footer {
+   background-color: #000000fd;
+   color: #ffffff;
+   text-align: center;
+   font-size: 12px;
+   padding: 15px;
+ }
+ 
+ /* For desktop: */
+ .col-1 {width: 8.33%;}
+ .col-2 {width: 16.66%;}
+ .col-3 {width: 25%;}
+ .col-4 {width: 33.33%;}
+ .col-5 {width: 41.66%;}
+ .col-6 {width: 50%;}
+ .col-7 {width: 58.33%;}
+ .col-8 {width: 66.66%;}
+ .col-9 {width: 75%;}
+ .col-10 {width: 83.33%;}
+ .col-11 {width: 91.66%;}
+ .col-12 {width: 100%;}
+ 
+ @media only screen and (max-width: 768px) {
+   /* For mobile phones: */
+   [class*="productos"] {
+     width: 100%;
+     
+     
+   }
+ }
